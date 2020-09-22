@@ -1,0 +1,14 @@
+{
+  "name":"test_template",
+  "label":"test_template",
+  "description":"Analytics template with one simple dashboard",
+  "featuredAssets":{
+     
+  },
+  "shares":[
+     {
+        "accessType":"View",
+        "shareType":"Organization"
+     }
+  ]
+}

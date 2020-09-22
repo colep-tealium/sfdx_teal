@@ -1,0 +1,49 @@
+{
+  "templateType": "app",
+  "autoInstallDefinition": "auto-install.json",
+  "label": "test_template",
+  "name": "test_template",
+  "description": "",
+  "assetVersion": 48.0,
+  "variableDefinition": "variables.json",
+  "uiDefinition": "ui.json",
+  "rules": [
+    {
+      "type": "templateToApp",
+      "file": "template-to-app-rules.json"
+    },
+    {
+      "type": "appToTemplate",
+      "file": "app-to-template-rules.json"
+    }
+  ],
+  "releaseInfo": {
+    "templateVersion": "1.0",
+    "notesFile": "releaseNotes.html"
+  },
+  "folderDefinition": "folder.json",
+  "externalFiles": [],
+  "lenses": [],
+  "dashboards": [
+    {
+      "label": "test_templateDashboard",
+      "name": "test_templateDashboard_tp",
+      "condition": "${Variables.Overrides.createAllDashboards}",
+      "file": "dashboards/test_templateDashboard.json"
+    }
+  ],
+  "eltDataflows": [],
+  "datasetFiles": [],
+  "imageFiles": [],
+  "extendedTypes": {},
+  "templateDependencies": [],
+  "icons": {
+    "appBadge": {
+      "name": "16.png"
+    },
+    "templateBadge": {
+      "name": "default.png"
+    },
+    "templatePreviews": []
+  }
+}
